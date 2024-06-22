@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+
+html {
+    font-family: "Raleway", sans-serif;
+}
+
+p {
+    color: white;
+}
+
+li {
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:hsl(229, 57%, 11%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    margin-block: 22rem;
+}
+
+.front-banner {
+    
+    border: orange 2px solid;
+    border-radius: 0% 100% 0% 100% / 100% 50% 50% 0%  ;
+    align-content: center;
+    justify-content: center;
+}
+
+.front-banner img {
+    width: fit-content;
+}
